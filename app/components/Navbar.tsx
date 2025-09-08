@@ -6,24 +6,22 @@ import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
+  const [scrolled, setScrolled] = useState(false); 
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50)  {
+      if (window.scrollY > 50) {
         setScrolled(true);
       } else {
         setScrolled(false);
       }
-    }
-    window.addEventListener('scroll', handleScroll);
+    };
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
-    }
-  },[])
-
-  
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const handleClick = () => {
     setOpen(!open);
@@ -33,8 +31,12 @@ const Navbar = () => {
     <div
       className={
         open
-          ? `bg-black/65 text-white fixed z-50 w-[100%] px-4 py-2 transition-all duration-400 ease-in-out ${scrolled ? 'bg-black/65' : 'bg-black/0'}`
-          : `bg-black/0 text-white fixed z-50 w-[100%] px-4 py-2 transition-all duration-400 ease-in-out  ${scrolled ? 'bg-black/65' : 'bg-black/0'}`
+          ? `bg-black/65 text-white fixed z-50 w-[100%] px-4 py-2 transition-all duration-400 ease-in-out ${
+              scrolled ? "bg-black/65" : "bg-black/0"
+            }`
+          : `bg-black/0 text-white fixed z-50 w-[100%] px-4 py-2 transition-all duration-400 ease-in-out  ${
+              scrolled ? "bg-black/65" : "bg-black/0"
+            }`
       }
     >
       <div className="flex flex-row-reverse justify-between md:justify-center md:items-center md:gap-x-20">
