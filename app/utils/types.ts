@@ -3,5 +3,7 @@ export interface ITopSellersData {
     name: string;
     price: string;
     category: string;
-    //imgPath: string;
+    imgPath: string;
+    imgWidth: number;
+    imgHeight: number;
 }
