@@ -1,9 +1,11 @@
 "use client";
 
+import TopSellersCards from "./TopSellersCards";
+
 const ProductsSection = () => {
   return (
     <div>
-      <h1>Top Sellers</h1>
+      <TopSellersCards />
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import HeroBrands from "../components/HeroBrands";
 import HeroInfo from "../components/HeroInfo";
 import ProductsSection from "../components/ProductsSection";
+import ProductTabs from "../components/ProductTabs";
 import Welcomehaha from "../components/Welcomehaha";
 
 export default function Home() {
@@ -11,6 +12,9 @@ export default function Home() {
       </section>
       <section className="pt-10 md:px-5">
         <HeroInfo />
+      </section>
+      <section className="pt-10 md:px-5">
+        <ProductTabs />
       </section>
       <section className="h-[1000px] pt-10 md:px-50">
         <HeroBrands />
