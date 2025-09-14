@@ -23,15 +23,17 @@ export default function AgTab({ products }: productsProps) {
               alt={pr.name}
               width={pr.imgWidth}
               height={pr.imgWidth}
-              quality={100}
+              quality={80}
             />
           </div>
-          <div className="flex flex-col text-center items-center">
+          <div className="flex flex-col">
             <h1>{pr.name}</h1>
-            <h2>{pr.price}</h2>
+            <h2 className="text-end opacity-70">{pr.price}</h2>
           </div>
         </div>
       ))}
     </div>
   );
 }
+
+//TODO: Styling, so I can just copy this component file to make another one
