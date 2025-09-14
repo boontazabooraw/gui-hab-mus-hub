@@ -7,7 +7,7 @@ export const products: ITopSellersData[] = [
     price: "₱12,330.00",
     category: "AG",
     imgPath: "/images/productImages/dnd_nova_acoustic.png",
-    imgWidth: 100,
+    imgWidth: 88,
     imgHeight: 100,
   },
   {
@@ -16,7 +16,7 @@ export const products: ITopSellersData[] = [
     price: "₱8,690.00",
     category: "AG",
     imgPath: "/images/productImages/dnd_django_jr.png",
-    imgWidth: 100,
+    imgWidth: 90,
     imgHeight: 100,
   },
   {
@@ -70,7 +70,7 @@ export const products: ITopSellersData[] = [
     price: "₱5,800.00",
     category: "BA",
     imgPath: "/images/productImages/clifton_vintage_presicion_bass.png",
-    imgWidth: 100,
+    imgWidth: 80,
     imgHeight: 100,
   },
   {
@@ -79,7 +79,7 @@ export const products: ITopSellersData[] = [
     price: "₱7,490.00",
     category: "BA",
     imgPath: "/images/productImages/jcraft_pb2_4-string.png",
-    imgWidth: 100,
+    imgWidth: 80,
     imgHeight: 100,
   },
   {
@@ -88,8 +88,8 @@ export const products: ITopSellersData[] = [
     price: "₱2,990.00",
     category: "ETC",
     imgPath: "/images/productImages/m-vave_tank-g_multi.png",
-    imgWidth: 100,
-    imgHeight: 100,
+    imgWidth: 200,
+    imgHeight: 200,
   },
 ];
 

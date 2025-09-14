@@ -7,15 +7,15 @@ interface productsProps {
   products: ITopSellersData[];
 }
 
-export default function AgTab({ products }: productsProps) {
-  const ag = products.filter((pr) => pr.category === "AG");
+export default function AmTab({ products }: productsProps) {
+  const ag = products.filter((pr) => pr.category === "AM");
 
   return (
     <div className="flex flex-row gap-2 justify-center">
       {ag.map((pr) => (
         <div
           key={pr.id}
-          className="flex flex-col justify-between h-93 items-center w-60 hover:bg-neutral-900 rounded-lg transition-all duration-500 ease-in-out p-5"
+          className="flex flex-col justify-evenly h-93 items-center w-60 gap-3 hover:bg-neutral-900 rounded-lg transition-all duration-500 ease-in-out p-5"
         >
           <div className="">
             <Image
@@ -26,7 +26,7 @@ export default function AgTab({ products }: productsProps) {
               quality={80}
             />
           </div>
-          <div className="flex flex-col justify-center h-20 text-sm">
+          <div className="flex flex-col">
             <h1>{pr.name}</h1>
             <h2 className="text-end opacity-70">{pr.price}</h2>
           </div>
