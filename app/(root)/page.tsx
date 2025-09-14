@@ -26,4 +26,10 @@ export default function Home() {
   );
 }
 
-//TODO: Products
+/*
+TODO:  
+
+- Fix the fonts (THE FONT CHOICE IS ABSOLUTE SHIT)
+- Fix responsiveness for larger viewports
+
+*/

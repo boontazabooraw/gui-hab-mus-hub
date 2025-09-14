@@ -26,7 +26,7 @@ export default function AmTab({ products }: productsProps) {
               quality={80}
             />
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col justify-center h-20 text-sm">
             <h1>{pr.name}</h1>
             <h2 className="text-end opacity-70">{pr.price}</h2>
           </div>
