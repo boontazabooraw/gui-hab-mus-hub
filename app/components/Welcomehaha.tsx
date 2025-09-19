@@ -55,4 +55,6 @@ const Welcomehaha = () => {
   );
 };
 
+//TODO: Add CTA button (Shop now | Book a service.)
+
 export default Welcomehaha;

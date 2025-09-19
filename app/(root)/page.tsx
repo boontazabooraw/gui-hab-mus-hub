@@ -19,9 +19,6 @@ export default function Home() {
       <section className="h-[1000px] pt-10 md:px-50">
         <HeroBrands />
       </section>
-      <section className="h-[1000px] pt-10 md:px-50">
-        <ProductsSection />
-      </section>
     </>
   );
 }

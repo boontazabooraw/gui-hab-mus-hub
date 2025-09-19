@@ -7,14 +7,14 @@ const HeroBrands = () => {
   return (
     <div className="flex flex-col items-center gap-20">
       <div>
-        <h1 className="text-2xl text-center font-bold mb-5">Authorized Dealer</h1>
+        <h1 className="text-2xl text-center font-bold mb-5">Our official partners</h1>
         <DealerLogos />
       </div>
       <div>
-        <h1 className="text-2xl text-center font-bold mb-5">
+        {/* <h1 className="text-2xl text-center font-bold mb-5">
           Guitars, Basses, Drums, Keyboards, Amplifiers & More
-        </h1>
-        <InstruLogos />
+        </h1> */}
+        
       </div>
       <div className="relative"></div>
     </div>

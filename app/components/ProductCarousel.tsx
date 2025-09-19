@@ -26,7 +26,7 @@ const ProductCarousel = () => {
         className="w-100"
         plugins={[
           Autoplay({
-            delay: 1000,
+            delay: 3000,
           }),
         ]}
       >
