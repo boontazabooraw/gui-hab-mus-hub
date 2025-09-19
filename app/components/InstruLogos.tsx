@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const InstruLogos = () => {
   return (
-    <div className="flex flex-wrap items-center justify-center gap-5">
+    <div className="flex flex-wrap items-center justify-around gap-x-5 gap-y-9">
       <Image
         src={"/images/caravan-logo.png"}
         alt="Caravan logo"
@@ -77,13 +77,13 @@ const InstruLogos = () => {
         quality={100}
       />
       <Image
-        src={"/images/__stellar-logo.png"}
-        alt="Stellar logo"
-        width={120}
-        height={120}
+        src={"/images/Yamaha_logo.png"}
+        alt="Yamaha logo"
+        width={110}
+        height={110}
         quality={100}
-        className="invert"
       />
+
       <Image
         src={"/images/thomson-logo.png"}
         alt="Thomson logo"
@@ -93,11 +93,12 @@ const InstruLogos = () => {
         className="grayscale brightness-150"
       />
       <Image
-        src={"/images/Yamaha_logo.png"}
-        alt="Yamaha logo"
-        width={110}
-        height={110}
+        src={"/images/__stellar-logo.png"}
+        alt="Stellar logo"
+        width={120}
+        height={120}
         quality={100}
+        className="invert"
       />
     </div>
   );

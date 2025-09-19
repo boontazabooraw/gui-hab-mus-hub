@@ -32,10 +32,10 @@ const Navbar = () => {
       className={
         open
           ? `bg-black/65 text-white fixed z-50 w-[100%] px-4 py-2 transition-all duration-400 ease-in-out ${
-              scrolled ? "bg-black/65" : "bg-black/0"
+              scrolled ? "bg-black/35 backdrop-blur-[3px]" : "bg-black/0"
             }`
           : `bg-black/0 text-white fixed z-50 w-[100%] px-4 py-2 transition-all duration-400 ease-in-out  ${
-              scrolled ? "bg-black/65" : "bg-black/0"
+              scrolled ? "bg-black/35 backdrop-blur-[3px]" : "bg-black/0"
             }`
       }
     >
@@ -68,8 +68,8 @@ const Navbar = () => {
       <ul
         className={
           open
-            ? " text-white flex items-center flex-col active transition-all gap-4 py-5 font-bold opacity-100 duration-800 ease-in-out h-45 md:hidden"
-            : "flex items-center flex-col duration-1200 font-bold ease-in-out opacity-0 gap-4 invisible h-0 md:hidden"
+            ? " text-white flex items-center flex-col active transition-all gap-4 py-5 font-bold opacity-100 duration-800 ease-in-out h-45 md:hidden "
+            : "flex items-center flex-col duration-1200 font-bold ease-in-out opacity-0 gap-4 invisible h-0 md:hidden "
         }
       >
         <Link href="/" className="md:hidden">

@@ -21,7 +21,7 @@ import EtcTab from "./contentinside/EtcTab";
 const ProductCarousel = () => {
   return (
     <div className="flex flex-col justify-center items-center gap-5">
-      <h1 className="text-2xl font-bold">Top Sellers</h1>
+      <h1 className="font-bold">Handpicked for Every Musician</h1>
       <Carousel
         className="w-100"
         plugins={[

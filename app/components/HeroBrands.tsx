@@ -16,7 +16,7 @@ const HeroBrands = () => {
         </h1> */}
         
       </div>
-      <div className="relative"></div>
+      
     </div>
   );
 };

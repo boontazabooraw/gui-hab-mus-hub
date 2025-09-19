@@ -10,7 +10,7 @@ export default function Home() {
       <section className="h-[100vh] md:px-5">
         <Welcomehaha />
       </section>
-      <section className="pt-10 md:px-5">
+      <section className="pt-10 md:px-5 ">
         <HeroInfo />
       </section>
       <section className="pt-10 md:px-5">
