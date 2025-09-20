@@ -1,7 +1,5 @@
 "use client";
 
-import InstruLogos from "./InstruLogos";
-
 const HeroInfo = () => {
   return (
     <div className="flex flex-col items-center gap-9 mb-10">
@@ -20,7 +18,7 @@ const HeroInfo = () => {
         <br />
         <br />
         <span className="text-gray-300">
-          We’re proud to be an authorized dealer of the biggest and most trusted
+          We are proud to be an authorized dealer of the biggest and most trusted
           names in music, including:
         </span>
       </div>

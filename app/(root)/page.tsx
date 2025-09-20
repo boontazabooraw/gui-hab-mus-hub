@@ -3,6 +3,7 @@ import InstruLogos from "../components/InstruLogos";
 import ProductCarousel from "../components/ProductCarousel";
 import Welcomehaha from "../components/Welcomehaha";
 import Partners from "../components/Partners";
+import Services from "../components/Services";
 
 export default function Home() {
   return (
@@ -19,6 +20,9 @@ export default function Home() {
       </section>
       <section className="pt-10 md:px-5">
         <Partners />
+      </section>
+      <section className="pt-15 md:px-5">
+        <Services />
       </section>
     </>
   );

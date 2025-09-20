@@ -37,5 +37,3 @@ export default function AgTab({ products }: productsProps) {
     </div>
   );
 }
-
-//TODO: Styling, so I can just copy this component file to make another one
