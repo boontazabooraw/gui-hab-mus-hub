@@ -33,10 +33,10 @@ const Welcomehaha = () => {
             </h1>
           </div>
           <div className="text-white text-center drop-shadow-md/400">
-            <h2 className="text-2xl font-bold">
+            <h2 className="text-3xl font-bold font-yellowtail">
               First custom Guitar in Bataan.
             </h2>
-            <h2 className="text-red-200">
+            <h2 className="text-red-100 font-rethink">
               Available exclusively at any Guitar Habit Music Hub branch.
             </h2>
           </div>

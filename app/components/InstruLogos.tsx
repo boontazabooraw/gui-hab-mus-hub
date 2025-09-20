@@ -2,15 +2,18 @@
 
 import Image from "next/image";
 
+
+
 const InstruLogos = () => {
   return (
-    <div className="flex flex-wrap items-center justify-around gap-x-5 gap-y-9">
+    <div className="flex flex-wrap items-center justify-evenly gap-x-5 gap-y-9 px-2">
       <Image
         src={"/images/caravan-logo.png"}
         alt="Caravan logo"
         width={100}
         height={100}
         quality={100}
+        className="opacity-60 hover:opacity-100 transition-opacity duration-300 ease-in-out"
       />
       <Image
         src={"/images/clifton-logo.png"}
@@ -18,6 +21,7 @@ const InstruLogos = () => {
         width={75}
         height={75}
         quality={100}
+        className="opacity-60 hover:opacity-100 transition-opacity duration-300 ease-in-out"
       />
       <Image
         src={"/images/cort-logo.png"}
@@ -25,6 +29,7 @@ const InstruLogos = () => {
         width={90}
         height={90}
         quality={100}
+        className="opacity-60 hover:opacity-100 transition-opacity duration-300 ease-in-out"
       />
       <Image
         src={"/images/davis-logo.png"}
@@ -32,7 +37,7 @@ const InstruLogos = () => {
         width={110}
         height={110}
         quality={100}
-        className="invert"
+        className="invert opacity-60 hover:opacity-100 transition-opacity duration-300 ease-in-out"
       />
       <Image
         src={"/images/deviser-logo.png"}
@@ -40,6 +45,7 @@ const InstruLogos = () => {
         width={110}
         height={110}
         quality={100}
+        className="opacity-60 hover:opacity-100 transition-opacity duration-300 ease-in-out"
       />
       <Image
         src={"/images/HeadRush-logo.png"}
@@ -47,6 +53,7 @@ const InstruLogos = () => {
         width={120}
         height={120}
         quality={100}
+        className="opacity-60 hover:opacity-100 transition-opacity duration-300 ease-in-out"
       />
       <Image
         src={"/images/jcraft-logo.png"}
@@ -54,6 +61,7 @@ const InstruLogos = () => {
         width={100}
         height={100}
         quality={100}
+        className="opacity-60 hover:opacity-100 transition-opacity duration-300 ease-in-out"
       />
       <Image
         src={"/images/lightfoot-logo.png"}
@@ -61,6 +69,7 @@ const InstruLogos = () => {
         width={100}
         height={100}
         quality={100}
+        className="opacity-60 hover:opacity-100 transition-opacity duration-300 ease-in-out"
       />
       <Image
         src={"/images/luxars-logo.png"}
@@ -68,6 +77,7 @@ const InstruLogos = () => {
         width={100}
         height={100}
         quality={100}
+        className="opacity-60 hover:opacity-100 transition-opacity duration-300 ease-in-out"
       />
       <Image
         src={"/images/mvave-logo.png"}
@@ -75,6 +85,7 @@ const InstruLogos = () => {
         width={100}
         height={100}
         quality={100}
+        className="opacity-60 hover:opacity-100 transition-opacity duration-300 ease-in-out"
       />
       <Image
         src={"/images/Yamaha_logo.png"}
@@ -82,6 +93,7 @@ const InstruLogos = () => {
         width={110}
         height={110}
         quality={100}
+        className="opacity-60 hover:opacity-100 transition-opacity duration-300 ease-in-out"
       />
 
       <Image
@@ -90,7 +102,7 @@ const InstruLogos = () => {
         width={110}
         height={110}
         quality={100}
-        className="grayscale brightness-150"
+        className="grayscale brightness-150 opacity-60 hover:opacity-100 transition-opacity duration-300 ease-in-out"
       />
       <Image
         src={"/images/__stellar-logo.png"}
@@ -98,7 +110,7 @@ const InstruLogos = () => {
         width={120}
         height={120}
         quality={100}
-        className="invert"
+        className="invert opacity-60 hover:opacity-100 transition-opacity duration-300 ease-in-out"
       />
     </div>
   );

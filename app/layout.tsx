@@ -7,21 +7,32 @@ import Navbar from "./components/Navbar";
 
 const antonRegular = localFont({
   src: "/fonts/Anton/Anton-Regular.ttf",
+  variable: "--font-heading",
 });
 
 const robotoRegular = localFont({
   src: "/fonts/Roboto/Roboto-Regular.ttf"
 });
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+const yellowtailRegular = localFont({
+  src: "/fonts/Yellowtail/Yellowtail-Regular.ttf",
+  variable: "--font-yellowtail",
+})
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const rethinkSans = localFont({
+  src: "/fonts/Rethink/RethinkSans.ttf",
+  variable: "--font-rethink",
+})
+
+// const geistSans = Geist({
+//   variable: "--font-geist-sans",
+//   subsets: ["latin"],
+// });
+
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+// });
 
 export const metadata: Metadata = {
   title: "Guitar Habit Music Hub",
@@ -36,7 +47,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${robotoRegular.className} antialiased`}
+        className={`${robotoRegular.className} ${antonRegular.variable} 
+        ${yellowtailRegular.variable} ${rethinkSans.variable}
+        antialiased`}
       >
         <Navbar />
         {children}

@@ -6,7 +6,7 @@ const HeroInfo = () => {
   return (
     <div className="flex flex-col items-center gap-9 mb-10">
       <div>
-        <h1 className="w-full text-3xl font-bold text-center px-9">
+        <h1 className="font-heading w-full text-3xl text-center px-9">
           Bataan’s Hub for Musicians — Gear, Service & Passion
         </h1>
       </div>
@@ -23,9 +23,6 @@ const HeroInfo = () => {
           We’re proud to be an authorized dealer of the biggest and most trusted
           names in music, including:
         </span>
-      </div>
-      <div>
-        <InstruLogos />
       </div>
     </div>
   );

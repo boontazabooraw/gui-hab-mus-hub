@@ -15,7 +15,7 @@ export default function BaTab({ products }: productsProps) {
       {ag.map((pr) => (
         <div
           key={pr.id}
-          className="flex flex-col justify-between h-93 items-center w-60 hover:bg-neutral-900 rounded-lg transition-all duration-500 ease-in-out p-5"
+          className="flex flex-col justify-between h-93 items-center w-60 hover:bg-black/50 rounded-lg transition-all duration-500 ease-in-out p-5"
         >
           <div className="">
             <Image
@@ -24,10 +24,11 @@ export default function BaTab({ products }: productsProps) {
               width={pr.imgWidth}
               height={pr.imgWidth}
               quality={80}
+              className="hover:scale-110 hover:z-50 transition-all duration-700 ease-out"
             />
           </div>
           <div className="flex flex-col justify-between h-20 text-sm pb-5">
-            <h1>{pr.name}</h1>
+            <h1 className="opacity-80 hover:opacity-100 transition-opacity duration-300 ease-in">{pr.name}</h1>
             <h2 className="text-end opacity-70">{pr.price}</h2>
           </div>
         </div>

@@ -4,6 +4,9 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+  --font-rethink: var(--font-rethink);
+  --font-yellowtail: var(--font-yellowtail);
+  --font-heading: var(--font-heading);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);

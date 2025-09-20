@@ -1,8 +1,8 @@
-import HeroBrands from "../components/HeroBrands";
 import HeroInfo from "../components/HeroInfo";
+import InstruLogos from "../components/InstruLogos";
 import ProductCarousel from "../components/ProductCarousel";
-import ProductsSection from "../components/ProductsSection";
 import Welcomehaha from "../components/Welcomehaha";
+import Partners from "../components/Partners";
 
 export default function Home() {
   return (
@@ -10,14 +10,15 @@ export default function Home() {
       <section className="h-[100vh] md:px-5">
         <Welcomehaha />
       </section>
-      <section className="pt-10 md:px-5 ">
+      <section className="py-10 md:px-5">
         <HeroInfo />
+        <InstruLogos />
       </section>
       <section className="pt-10 md:px-5">
         <ProductCarousel />
       </section>
-      <section className="h-[1000px] pt-10 md:px-50">
-        <HeroBrands />
+      <section className="pt-10 md:px-5">
+        <Partners />
       </section>
     </>
   );
