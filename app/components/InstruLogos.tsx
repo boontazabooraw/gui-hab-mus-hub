@@ -48,7 +48,7 @@ const InstruLogos = () => {
         className="opacity-60 hover:opacity-100 transition-opacity duration-300 ease-in-out"
       />
       <Image
-        src={"/images/HeadRush-logo.png"}
+        src={"/images/headrush-logo.png"}
         alt="Headrush logo"
         width={150}
         height={150}
