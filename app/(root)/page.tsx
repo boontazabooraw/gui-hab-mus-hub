@@ -8,20 +8,20 @@ import Services from "../components/Services";
 export default function Home() {
   return (
     <>
-      <section className="h-[100vh] md:px-5">
+      <section id="home" className="h-[100vh] md:px-5">
         <Welcomehaha />
       </section>
-      <section className="py-10 md:px-5">
+      <section className="py-10 md:px-10 lg:px-50">
         <HeroInfo />
         <InstruLogos />
       </section>
-      <section className="pt-10 md:px-5">
+      <section id="products" className="pt-10 md:px-5">
         <ProductCarousel />
       </section>
       <section className="pt-10 md:px-5">
         <Partners />
       </section>
-      <section className="pt-15 md:px-5">
+      <section id="services" className="pt-25 md:px-5">
         <Services />
       </section>
     </>

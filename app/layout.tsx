@@ -45,7 +45,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className='scroll-smooth scroll-pt-50' style={{scrollBehavior:'smooth',}}>
       <body
         className={`${robotoRegular.className} ${antonRegular.variable} 
         ${yellowtailRegular.variable} ${rethinkSans.variable}

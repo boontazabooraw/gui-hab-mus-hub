@@ -7,3 +7,9 @@ export interface ITopSellersData {
     imgWidth: number;
     imgHeight: number;
 }
+
+export interface iServiceCardData {
+    title: string;
+    description: string;
+    imgPath: string;
+}

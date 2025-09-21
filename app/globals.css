@@ -63,6 +63,11 @@ section {
   mask-image: linear-gradient(to bottom, black 20%, transparent 100%);
 }
 
+.fade-mask-image-service {
+  -webkit-mask-image: linear-gradient(to bottom, black 20%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+}
+
 :root {
   --background: oklch(0.1450 0 0);
   --foreground: oklch(1 0 0);

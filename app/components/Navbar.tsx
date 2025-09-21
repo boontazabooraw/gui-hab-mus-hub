@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false); 
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -39,14 +39,14 @@ const Navbar = () => {
             }`
       }
     >
-      <div className="flex flex-row-reverse justify-between md:justify-center md:items-center md:gap-x-20">
+      <div className="flex md:flex-row flex-row-reverse justify-between md:justify-center md:items-center md:gap-x-20">
         <button onClick={handleClick} className="md:hidden">
           <span className="text-4xl cursor-cell">≣</span>
         </button>
-        <Link href="/" className="font-semibold hidden md:block">
+        <Link href="#home" className="font-semibold hidden md:block">
           HOME
         </Link>
-        <Link href="/Products" className="font-semibold hidden md:block">
+        <Link href="#products" className="font-semibold hidden md:block">
           PRODUCTS
         </Link>
         <div className="border-4 border-white rounded-[100%]">
@@ -57,10 +57,10 @@ const Navbar = () => {
             height={50}
           />
         </div>
-        <Link href="/Services" className="font-semibold hidden md:block">
+        <Link href="#services" className="font-semibold hidden md:block">
           SERVICES
         </Link>
-        <Link href="/About" className="font-semibold hidden md:block">
+        <Link href="#home" className="font-semibold hidden md:block">
           ABOUT
         </Link>
         <div className="opacity-0 md:hidden">......</div>
@@ -72,16 +72,24 @@ const Navbar = () => {
             : "flex items-center flex-col duration-1200 font-bold ease-in-out opacity-0 gap-4 invisible h-0 md:hidden "
         }
       >
-        <Link href="/" className="md:hidden">
+        <Link href="#home" className="md:hidden" onClick={() => handleClick()}>
           Home
         </Link>
-        <Link href="/Products" className="md:hidden">
+        <Link
+          href="#products"
+          className="md:hidden"
+          onClick={() => handleClick()}
+        >
           Products
         </Link>
-        <Link href="/Services" className="md:hidden">
+        <Link
+          href="#services"
+          className="md:hidden"
+          onClick={() => handleClick()}
+        >
           Services
         </Link>
-        <Link href="/About" className="md:hidden">
+        <Link href="#home" className="md:hidden">
           About
         </Link>
       </ul>
