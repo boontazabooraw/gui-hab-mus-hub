@@ -23,7 +23,7 @@ const ProductCarousel = () => {
     <div className="flex flex-col justify-center items-center gap-5">
       <h1 className="text-2xl font-heading tracking-wider">Handpicked for Every Musician</h1>
       <Carousel
-        className="w-100"
+        className="w-100 md:w-200"
         plugins={[
           Autoplay({
             delay: 3000,
