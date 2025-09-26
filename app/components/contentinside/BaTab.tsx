@@ -23,7 +23,7 @@ export default function BaTab({ products }: productsProps) {
               alt={pr.name}
               width={pr.imgWidth}
               height={pr.imgWidth}
-              quality={80}
+              quality={100}
               className="hover:scale-110 hover:z-50 transition-all duration-700 ease-out"
             />
           </div>

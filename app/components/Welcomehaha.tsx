@@ -44,6 +44,7 @@ const Welcomehaha = () => {
       </div>
       <Image
         src={"/images/stellar-home.jpg"}
+        priority
         alt="preview"
         layout="fill"
         objectFit="cover"
